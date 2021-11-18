@@ -1,0 +1,5 @@
+__var__ (this is the shortcut for couples of list data or other things )
+
+Ex: 
+var = ['ibrahim','saleh','omer']
+__var__ = all data inside the var

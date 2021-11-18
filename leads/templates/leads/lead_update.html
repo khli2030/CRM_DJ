@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Qanateer | store</title>
+    <meta
+      name="description"
+      content="our store is the best in the their scope"
+    />
+    <meta charset="utf-8" />
+    <meta name="robots" content="index, follow" />
+    <link rel="icon" href="/img/presentation_icon_194170.png" />
+    <link rel="stylesheet" href="/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style></style>
+  </head>
+  <body>
+    <strong>Here is the lead update page{{ lead.first_name }} </strong>
+    <form method="post">
+      {% csrf_token %} {{ form.as_p }}
+      <button type="submit">submit</button>
+    </form>
+  </body>
+</html>

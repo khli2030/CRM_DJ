@@ -1,0 +1,9 @@
+{% extends 'base.html' %} {% block content %}
+<strong>Are you sure you want to delete this lead</strong>
+<a href="{% url 'leads:leads-list' %}">Go back to leads </a>
+<form method="post">
+  {% csrf_token %} {{ form.as_p }}
+  <button type="submit">submit</button>
+
+  {% endblock content %}
+</form>
